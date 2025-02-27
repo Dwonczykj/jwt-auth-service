@@ -1,0 +1,11 @@
+*_venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+node_modules
+*.DS_Store
+logs/*
+*.log
+gitleaks-report.txt
+*.json
