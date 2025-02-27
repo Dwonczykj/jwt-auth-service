@@ -1,0 +1,35 @@
+{
+    "docwriter.hotkey.mac": "⌥ + .",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.guides.bracketPairs": "active",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=all",
+        "--enable=unused-variable"
+    ],
+    "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnusedVariable": "error",
+        "reportUnknownVariableType": "none",
+        "reportUnusedImport": "warning",
+        "reportUnknownMemberType": "none",
+        "reportUnknownLambdaType": "none",
+        "reportMissingTypeStubs": "warning",
+    },
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/objects/",
+        "${workspaceFolder}/checks/",
+    ],
+    "python.REPL.enableREPLSmartSend": false,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+        ".pytest_cache": true,
+        "**/*venv/": true,
+    }
+}
